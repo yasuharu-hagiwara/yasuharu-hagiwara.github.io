@@ -4,15 +4,118 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>行列のできるアプリ開発者！萩原康玄ポートフォリオページ</title>
+    <meta name="description" content="IT企業でシステムエンジニアとしてシステム開発をする一方、初音ミクを使って作曲などもする萩原康玄の作成したアプリを紹介する、オリジナルポートフォリオページ。">
+
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--cssの読み込み-->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- jQuery読み込み? -->
+    <script src="//ajax.glsoogleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav class="navbar navbar-default">
+    	  <div class="container-fluid">
+	  	    <div class="navbar-header">
+		  	   <a class="navbar-brand" href="#">萩原康玄ポートフォリオページ</a>
+		      </div>
+	  	    <div class="collapse navbar-collapse" id="navbarEexample1">
+    	  		<ul class="nav navbar-nav">
+    	  			<li><a href="#person">自己紹介</a></li>
+    	  			<li><a href="#apl">アプリ紹介</a></li>
+    	  			<li><a href="#lnk">リンク</a></li>
+    		  	</ul>
+	  	    </div>
+    	  </div>
+      </nav> 
+    </header>
+    
+    <div class="jumbotron"  >
+      <h1>行列のできるアプリ開発者！</h1>
+      <p class="subtitle">
+        萩原康玄ポートフォリオページ
+      </p>
+  　</div> <!-- /container --> 
+　  <h1>
+　    <a name="person"  href="#">自己紹介</a>
+　  </h1>
+  
+    <div class="panel panel-primary" id="panel_person">
+	    <div class="panel-heading">
+	    	萩原 康玄(はぎわら やすはる)
+	    </div>
+	    <div class="panel-body">
+	    	<p>1978年生まれ。</p>
+	  	  <p>IT企業に勤務し、システムエンジニアとして流通業向け業務システムの開発をする一方、2016年中小企業診断士として登録。雑誌記事の執筆実績、ITILに関する講師実績あり。</p>
+	  	  <p>初音ミクを使って作曲とかも。</p>
+      </div>
+    </div>
+　        
+　  <h1>
+　    <a name="apl"  href="#">アプリ紹介</a>
+　  </h1>
+　  
+    <div class = "row row-0">
+       
+       <div class = "col-sm-6 col-md-3">
+          <a href = "#" class = "thumbnail">
+             <img src = "apl1.png" alt = "apl1 thumbnail">
+          </a>
+       </div>
+       
+       <div class = "col-sm-6 col-md-3">
+          <a href = "#" class = "thumbnail">
+             <img src = "apl2.png" alt = "apl2 thumbnail">
+          </a>
+       </div>
+       
+       <div class = "col-sm-6 col-md-3">
+          <a href = "#" class = "thumbnail">
+             <img src = "apl3.png" alt = "apl3 thumbnail">
+          </a>
+       </div>
+       
+       <div class = "col-sm-6 col-md-3">
+          <a href = "#" class = "thumbnail">
+             <img src = "apl4.png" alt = "apl4 thumbnail">
+          </a>
+       </div>
+       
+    </div>
+　  
+　  
+
+　  <h1>
+　    <a name="lnk"  href="#">リンク</a>
+　  </h1>
+     <div  class="container">
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover">
+            <thead>
+              <tr class="info">
+                <th>#</th>
+                <th>Site</th>
+                <th>URL</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>GitHub</td>
+                <td><a href=https://github.com/yasuharu-hagiwara>https://github.com/yasuharu-hagiwara</a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Facebook</td>
+                <td><a href=https://www.facebook.com/yasuharu.hagiwara>https://www.facebook.com/yasuharu.hagiwara</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
   </body>
 </html>
